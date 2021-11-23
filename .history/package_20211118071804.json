@@ -1,0 +1,24 @@
+{
+  "name": "webpack-inicial",
+  "version": "1.0.0",
+  "description": "cascaron de webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1",
+    "build": "webpack",
+    "start": "webpack serve --config webpack.config.js --open --port=8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
